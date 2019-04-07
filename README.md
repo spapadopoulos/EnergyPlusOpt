@@ -10,5 +10,14 @@ A framework to couple Matlab with EnergyPlus and solve simulation-based optimiza
   4. Replace set output_path=ExampleFiles\Outputs\ with set output_path=%program_path%IO\Output\. 
 
 * __Alter the batch file__. 
+  1. Find RunEPlus batch file in E+ installation.
+  2. Replace set program_path=%~dp0 with  set program_path="%ENERGYPLUS%".
+  3. Replace set input_path=ExampleFiles\ with  set input_path=%program_path%IO\Input\.
+  4. Replace set output_path=ExampleFiles\Outputs\ with set output_path=%program_path%IO\Output\
+  
+## Functions
+
+__idfread(filename)__ -- Reads and parses IDF file in a structure array.
+  
 
 
