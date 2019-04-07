@@ -30,6 +30,9 @@ __Problem definition:__ We try to optimize HVAC heating and cooling set points i
 * __HVAC_opt_multiobjective.m__ -- We formulate the objetive functions as the output of EnergyPlus simulation 
 
 * __ga_run.m__ -- We solve the problem using a genetic algorithm solver (i.e. NSGA-II)
+
+
+![alt text](https://github.com/spapadopoulos/EnergyPlusOpt/blob/master/optimization_flowchart.png "Optimization Flowchart")
   
 For detailed problem formulation and case study results see [here](https://www.sciencedirect.com/science/article/pii/S036013231930232X?dgcid=author)
 
