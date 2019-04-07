@@ -21,6 +21,13 @@ __idfread(filename)__ -- Reads and parses IDF file in a structure array.
 __idfwrite(filename)__ -- Write IDF file from structure array.
 
 __runep(filename, epwfilename)__ -- Runs E+ process directly in Matlab given .IDF and .EPW (weather) files. 
+
+
+## Case study
+
+__Problem definition:__ We try to optimize HVAC heating and cooling set points in office spaces with respect to _energy savings_ and _occupants' thermal comfort_.
+
+We solve the problem using genetic algorithms 
   
 
 
