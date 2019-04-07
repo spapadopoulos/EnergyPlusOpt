@@ -18,7 +18,9 @@ A framework to couple Matlab with EnergyPlus and solve simulation-based optimiza
 ## Functions
 
 __idfread(filename)__ -- Reads and parses IDF file in a structure array.
+
 __idfwrite(filename)__ -- Write IDF file from structure array.
+
 __runep(filename, epwfilename)__ -- Runs E+ process directly in Matlab given .IDF and .EPW (weather) files. 
   
 
