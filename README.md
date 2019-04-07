@@ -31,6 +31,7 @@ __Problem definition:__ We try to optimize HVAC heating and cooling set points i
 
 * __ga_run.m__ -- We solve the problem using a genetic algorithm solver (i.e. NSGA-II)
 
+The figure below is an illustration of the optimization process:
 
 ![alt text](https://github.com/spapadopoulos/EnergyPlusOpt/blob/master/optimization_flowchart.png "Optimization Flowchart")
   
