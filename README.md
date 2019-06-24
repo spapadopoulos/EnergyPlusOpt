@@ -42,5 +42,4 @@ For detailed problem formulation and case study results see [here](https://www.s
 The framework can be applied in a variety of single or multi-objective building energy optimization problems, such as retrofit optimization with respect to energy and first costs, or blind opening and visual comfort to name a few.
 
 
-{% include nyc_neighborhoods.html %}
 
