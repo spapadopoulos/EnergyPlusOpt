@@ -4,7 +4,7 @@ A framework to couple Matlab with EnergyPlus and solve simulation-based optimiza
 ## Installation
 
 * __Create environment variables__
-  1. Set environment variable _ENERGYPLUS_ and point it to the location of the E+ installed folder (e.g. C:\EnergyPlusV8-9-0\).
+  1. Set environment variable _ENERGYPLUS_ and point it to the location of the E+ installed folder (e.g. C:\EnergyPlusV8-9-0\ ).
   2. Create IO folder in E+ installation with two subfolders "Input" and "Output".
   3. Copy building.idf in the Input folder.
 
